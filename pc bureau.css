@@ -1,0 +1,71 @@
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.contenu
+{
+    width: 1300px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenu .boite
+{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #f2f2f2;;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    box-sizing: border-box;
+    padding: 30 px;
+    box-shadow: -10px 25px 50px rgba(0,0,0,0.3);
+}
+.contenu .boite:hover
+{
+    color: whitesmoke;
+    background: teal;
+}
+
+
+
+
+.boite .text .img
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 10%;
+    right: 10%;
+    font-size:1.5rem;
+}
+
+
+.boite
+{
+    margin-bottom: 25px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boite p
+{
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
